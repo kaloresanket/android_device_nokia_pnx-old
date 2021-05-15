@@ -1,0 +1,31 @@
+# Display
+ro.surface_flinger.has_wide_color_display=true
+ro.surface_flinger.has_HDR_display=true
+
+# Volte 
+persist.dbg.ims_volte_enable=1 
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+persist.dbg.wfc_avail_ovr=1
+persist.dbg.allow_ims_off=1
+persist.vendor.radio.data_con_rprt=1
+persist.vendor.radio.data_ltd_sys_ind=1
+persist.vendor.radio.force_on_dc=true
+persist.vendor.radio.ignore_dom_time=10
+
+# Memory
+debug.performance.tuning=1
+debug.sf.hw=1
+dev.pm.dyn_samplingrate=1
+hwui.disable_vsync=true
+ro.config.enable.hw_accel=true
+ro.vendor.qti.sys.fw.bservice_enable=true
+
+# Zram
+ro.zram.mark_idle_delay_mins=60
+ro.zram.first_wb_delay_mins=180
+ro.zram.periodic_wb_delay_hours=24
+
+#UI
+debug.sf.latch_unsignaled=1
+debug.sf.hw=0
